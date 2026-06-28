@@ -1,0 +1,18 @@
+{
+  "blog_id": "bk_solar",
+  "blog_url": "https://blog.naver.com/bk_solar",
+  "updated_at": "2026-06-25T11:57:36.390527",
+  "post_count": 1,
+  "posts": [
+    {
+      "title": "(크롤링 실패)",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "네이버 블로그 서버 정책으로 직접 수집 불가. Claude API 웹검색으로 대체.",
+      "pubDate": "2026-06-25T11:57:36.390199",
+      "source": "fallback",
+      "content": "",
+      "crawled_at": "2026-06-25T11:57:36.390213",
+      "hash": "fallback00"
+    }
+  ]
+}

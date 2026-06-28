@@ -1,0 +1,14 @@
+2026-06-25 11:57:31,371 [INFO] ==================================================
+2026-06-25 11:57:31,372 [INFO] 부광솔라 블로그 크롤링 시작
+2026-06-25 11:57:31,372 [INFO] 대상: https://blog.naver.com/bk_solar
+2026-06-25 11:57:31,372 [INFO] ==================================================
+2026-06-25 11:57:31,372 [INFO] [1단계] RSS 직접 파싱 시도: https://rss.blog.naver.com/bk_solar.xml
+2026-06-25 11:57:32,024 [WARNING]   ❌ 시도 1: status=403
+2026-06-25 11:57:33,271 [WARNING]   ❌ 시도 2: status=403
+2026-06-25 11:57:34,330 [WARNING]   ❌ 시도 3: status=403
+2026-06-25 11:57:35,387 [WARNING]   ❌ 시도 4: status=403
+2026-06-25 11:57:36,388 [WARNING] [1단계] RSS 직접 파싱 실패 → 2단계로 이동
+2026-06-25 11:57:36,390 [INFO] ✅ JSON 저장: /home/claude/p3/website2/website/data/blog_cache/blog_posts_20260625_115736.json
+2026-06-25 11:57:36,391 [INFO] ✅ CSV 저장: /home/claude/p3/website2/website/data/blog_cache/blog_posts_20260625_115736.csv
+2026-06-25 11:57:36,392 [INFO] ✅ Text 저장: /home/claude/p3/website2/website/data/blog_cache/blog_posts_20260625_115736.txt
+2026-06-25 11:57:36,392 [INFO] 크롤링 완료: 1개 포스트 수집

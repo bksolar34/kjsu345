@@ -1,0 +1,59 @@
+{
+  "blog_id": "bk_solar",
+  "blog_url": "https://blog.naver.com/bk_solar",
+  "updated_at": "2026-06-25T11:58:21.239171",
+  "post_count": 5,
+  "source_note": "시드 데이터 (네이버 403 차단으로 직접 수집 불가, Claude API 웹검색으로 주기적 업데이트)",
+  "posts": [
+    {
+      "title": "부광솔라 영농형 태양광 - 스마트팜 온실 솔루션",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "부광솔라의 스마트팜 영농형 태양광은 농업과 에너지 생산을 동시에 실현합니다. 태양광 패널을 지상 3~4m 높이에 설치하여 하부 농작물 재배와 상부 발전을 동시에 가능하게 합니다. REC 가중치 우대와 정부 보조금 지원으로 높은 수익성을 보장합니다.",
+      "pubDate": "2025-01-01",
+      "source": "seed_data",
+      "content": "부광솔라는 대전광역시 서구 복수중로30에 위치한 영농형 태양광 전문기업입니다. 스마트팜 온실형 태양광, BESS 에너지저장시스템, EMS 에너지관리시스템을 통합 공급합니다.",
+      "crawled_at": "2026-06-25T11:58:21.239142",
+      "hash": "seed0001"
+    },
+    {
+      "title": "ESS 에너지저장시스템 - 가정용/상업용 솔루션",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "부광솔라 ESS 에너지저장시스템은 태양광 발전 전력을 저장하여 필요할 때 공급합니다. 가정용 5kWh부터 상업용 수백kWh까지 맞춤 설계가 가능합니다. BMS 배터리관리시스템으로 안전하고 효율적인 운영을 보장합니다.",
+      "pubDate": "2025-02-01",
+      "source": "seed_data",
+      "content": "BESS 투자비의 30~50%를 정부 보조금으로 지원받을 수 있으며, 한국에너지공단 신재생에너지 보급사업을 통해 신청 가능합니다.",
+      "crawled_at": "2026-06-25T11:58:21.239157",
+      "hash": "seed0002"
+    },
+    {
+      "title": "통합수익분석 - NASA 일사량 기반 23년 현금흐름",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "NASA 실측 일사량 데이터를 기반으로 23년간의 태양광 수익을 정밀 시뮬레이션합니다. PV 발전량, BESS 수익, SMP 단가, REC 수익, CDM 수익을 종합하여 투자 타당성을 분석합니다. 손익분기점은 지역 일사량과 보조금에 따라 7~10년차에 형성됩니다.",
+      "pubDate": "2025-03-01",
+      "source": "seed_data",
+      "content": "SMP 기본 단가 185원/kWh, REC 75,000원/MEC, 가중치 1.0 기준으로 분석합니다. 달러 환산 옵션도 제공하여 외국인 투자자도 활용 가능합니다.",
+      "crawled_at": "2026-06-25T11:58:21.239159",
+      "hash": "seed0003"
+    },
+    {
+      "title": "3D 입지분석 - Copernicus DEM + OpenStreetMap 연동",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "부광솔라의 3D 입지분석은 실제 지형 데이터(Copernicus DEM)와 건물 데이터(OpenStreetMap), NASA 일사량을 결합하여 최적 설치 위치를 분석합니다. 분석 결과로 분석범위, 평균일사량, 지형고도차, 일일그림자영향, 실효발전효율을 확인할 수 있습니다.",
+      "pubDate": "2025-04-01",
+      "source": "seed_data",
+      "content": "토지 위(영농형)와 건물 위(옥상형) 설치 유형을 선택하여 분석하며, 2D 포토지도 비교 기능도 제공합니다.",
+      "crawled_at": "2026-06-25T11:58:21.239160",
+      "hash": "seed0004"
+    },
+    {
+      "title": "부광솔라 특허 기술 - RTU 원격감시제어 시스템",
+      "link": "https://blog.naver.com/bk_solar",
+      "description": "부광솔라는 RTU 전력 원격감시제어 시스템 특허를 보유하고 있습니다. 건물일체형 태양광(BIPV), 노지 스마트팜 영농형 태양광 구조물, 스마트팜 태양광 온실 등 다수의 특허 기술을 상용화했습니다. BKadmin 앱을 통해 실시간 모니터링이 가능합니다.",
+      "pubDate": "2025-05-01",
+      "source": "seed_data",
+      "content": "042-584-5017, bk_solar@naver.com으로 문의하시면 전문 상담을 받을 수 있습니다. 대전광역시 서구 복수중로30에 위치합니다.",
+      "crawled_at": "2026-06-25T11:58:21.239162",
+      "hash": "seed0005"
+    }
+  ]
+}
