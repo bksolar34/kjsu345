@@ -1,0 +1,77 @@
+# ============================================================
+# 부광솔라 홈페이지 .gitignore
+# GitHub Pages 정적 배포 기준
+# ============================================================
+
+# ── 환경변수 / API 키 (절대 커밋 금지) ──────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+*.env
+config.local.js        # 로컬 전용 API 키 설정 (config.js 대신 사용)
+
+# ── 로그 파일 ──────────────────────────────────────────────
+*.log
+logs/
+data/crawler.log
+data/reports/
+backend/__pycache__/
+analytics/__pycache__/
+
+# ── Python 캐시 ────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Node.js ────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS 메타파일 ────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── 에디터 설정 ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── 빌드 산출물 ────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.bak
+*.bak.*
+
+# ── 데이터 캐시 (자동 생성되므로 제외) ─────────────────────
+data/blog_cache/blog_posts_*.json
+data/blog_cache/latest.txt
+data/analytics_cache.json
+data/report_meta.json
+
+# ── 보안 파일 ──────────────────────────────────────────────
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+
+# ── GitHub Pages 배포 관련 ────────────────────────────────
+# .nojekyll 은 포함 (Jekyll 비활성화 필요)
+# CNAME 은 포함 (커스텀 도메인 설정)
