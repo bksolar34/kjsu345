@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-부광솔라 방문자 분석 자동 보고서 시스템
-- localStorage(bk_solar_analytics) 데이터를 JSON으로 수신
-- 15일 주기 이메일 보고서 자동 발송 (EmailJS REST API)
-- 실행: python3 analytics_report.py [--send] [--schedule]
-
-사용법:
-  python3 analytics_report.py             # 보고서 생성 (발송 안 함)
-  python3 analytics_report.py --send      # 즉시 발송
-  python3 analytics_report.py --schedule  # 15일 주기 자동 발송
-"""
 
 import json, os, sys, time, argparse
 from datetime import datetime, timedelta
