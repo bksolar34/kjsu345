@@ -35,7 +35,7 @@
         </a>
         <nav class="main-nav" id="mainNav">
             <a href="#" data-view="home" data-i18n="nav.home">홈</a>
-            <a href="#" data-view="ess" data-i18n="nav.ess">ESS(EMS/BMS) <span style="font-size:0.7em;opacity:0.7;">-준비중</span></a>
+            <a href="#" data-view="ess" data-i18n="nav.ess">ESS(EMS/BMS) <span style="font-size:0.7em;opacity:0.7;"></span></a>
             <a href="#" data-view="revenue" data-i18n="nav.revenue">통합수익분석</a>
             <a href="#" data-view="site3d" data-i18n="nav.site3d">입지분석</a>
             <a href="#" data-view="tech" data-i18n="nav.tech">기술·특허</a>
@@ -269,11 +269,6 @@
     </footer>
 </main>
 
-<!-- ============================================================
-     VIEW: REVENUE (통합수익분석) - 독립 화면
-     주소입력창(지오코딩) → 좌표 확정 → NASA 좌표기반 1년치 일사량
-     → 수익분석Profit Analysis.html 입력 구조 그대로 + 주소창만 추가
-============================================================ -->
 <main class="view-panel" id="view-revenue" data-view="revenue">
     <section id="revenue-section">
         <div class="section-inner">
@@ -316,7 +311,7 @@
                     </p>
                 </div>
 
-                <!-- ===== 1. PV 발전 및 자본 설정 (Profit Analysis.html 구조 그대로) ===== -->
+                <!-- ===== 1. PV 발전 및 자본 설정 ===== -->
                 <div class="pi-card-row">
                     <div class="pi-card">
                         <h4><i class="fas fa-solar-panel"></i> <span data-i18n="pi.pv.title">PV 발전 및 자본 설정</span></h4>
@@ -569,13 +564,13 @@
 </main>
 
 <!-- ============================================================
-     VIEW: ESS (EMS/BMS) - ESS 용량계산기
+     VIEW: ESS (EMS/BEMS) - ESS 용량계산기
 ============================================================ -->
 <main class="view-panel" id="view-ess" data-view="ess">
     <section id="ess-calc">
         <div class="section-inner">
             <div class="section-header">
-                <span class="section-tag"><i class="fas fa-battery-full"></i> ESS(EMS/BMS)</span>
+                <span class="section-tag"><i class="fas fa-battery-full"></i> ESS(EMS/BEMS)</span>
                 <h2>ESS 용량 계산기</h2>
                 <p>NASA 일조량 데이터 기반 · 기본 용량 5kWh · 충전 100% / 방전 80% 효율 적용</p>
                 <span style="display:inline-block;margin-top:8px;padding:4px 14px;background:#e67e22;color:#fff;border-radius:20px;font-size:0.8rem;font-weight:700;">⚙ 준비중 — 계산 로직 시범 운영</span>
